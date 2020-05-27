@@ -1,9 +1,11 @@
 # React - Express basic setup
 This repository has the basic bare bones code to run a React Frontend and Node/Express Backend and running them together. The project uses MongoDB as the database storage.
 
+## Hosting and connecting the MongoDB database
+Since we are using MongodDB database, we will need to create a cluster. Go over this awesome [blog post](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database) that clearly explains how to host a MongoDB cluster and set it up with NodeJS.
+
 ## Download and install tools
-1. [MongoDB](https://docs.mongodb.com/manual/installation/)
-2. [VS Code](https://code.visualstudio.com/) (Recommended but not required)
+1. [VS Code](https://code.visualstudio.com/) (Recommended but not required)
 
 ## The APP
 The app combines two separate applications. Client which serves the FrontEnd (using React), and the API (in Node/Express)

@@ -13,7 +13,8 @@ The app combines two separate applications. Client which serves the FrontEnd (us
 ## How to run both the servers together
 1. Clone the repository.
 2. Open your terminal and navigate to the root directory (react-node).
-3. Run `npm run dev`.
+3. Run `npm run installation` to install all dependencies
+4. Run `npm run dev`.
 
 ## How to run the Node server seperately
 1. In your terminal, navigate to the api directory.
